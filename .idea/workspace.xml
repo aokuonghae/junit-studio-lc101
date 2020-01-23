@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.BalancedBracketsTest">
+  <component name="RunManager" selected="JUnit.BonusBinarySearchTest.searchReturnsFalseIfNumberLessThanIndex">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -63,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBracketsTest.emptyStringReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusBinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -72,15 +72,31 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="emptyStringReturnsTrue" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusBinarySearchTest.searchReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="searchReturnsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBracketsTest.stringMultipleBracketsMatchedReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusBinarySearchTest.searchReturnsFalseIfNumberLessThanIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +105,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="stringMultipleBracketsMatchedReturnsTrue" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="searchReturnsFalseIfNumberLessThanIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBracketsTest.stringMultipleUnmatchedBracketsReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusBinarySearchTest.searchReturnsIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -106,25 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="stringMultipleUnmatchedBracketsReturnsFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedBracketsTest.stringNoBracketsReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-studio-lc101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="stringNoBracketsReturnsTrue" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="searchReturnsIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusBinarySearchTest.searchReturnsFalseIfNumberLessThanIndex" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.searchReturnsFalse" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.searchReturnsIndex" />
+        <item itemvalue="JUnit.BonusBinarySearchTest" />
         <item itemvalue="JUnit.BalancedBracketsTest" />
-        <item itemvalue="JUnit.BalancedBracketsTest.stringNoBracketsReturnsTrue" />
-        <item itemvalue="JUnit.BalancedBracketsTest.stringMultipleUnmatchedBracketsReturnsFalse" />
-        <item itemvalue="JUnit.BalancedBracketsTest.stringMultipleBracketsMatchedReturnsTrue" />
-        <item itemvalue="JUnit.BalancedBracketsTest.emptyStringReturnsTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -192,21 +191,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="218" key="GridCell.Tab.0.bottom" timestamp="1579722973141">
+    <state width="789" height="214" key="GridCell.Tab.0.bottom" timestamp="1579742733218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579722973141" />
-    <state width="1557" height="218" key="GridCell.Tab.0.center" timestamp="1579722973140">
+    <state width="789" height="214" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579742733218" />
+    <state width="789" height="214" key="GridCell.Tab.0.center" timestamp="1579742733218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579722973140" />
-    <state width="1557" height="218" key="GridCell.Tab.0.left" timestamp="1579722973140">
+    <state width="789" height="214" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579742733218" />
+    <state width="789" height="214" key="GridCell.Tab.0.left" timestamp="1579742733218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579722973140" />
-    <state width="1557" height="218" key="GridCell.Tab.0.right" timestamp="1579722973141">
+    <state width="789" height="214" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579742733218" />
+    <state width="789" height="214" key="GridCell.Tab.0.right" timestamp="1579742733218">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579722973140" />
+    <state width="789" height="214" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579742733218" />
   </component>
 </project>
